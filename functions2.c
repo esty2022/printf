@@ -141,7 +141,7 @@ for (j = 0; in[j]; j++)
 {
 if (in[j] == str[i])
 {
-Ix = out[j];
+x = out[j];
 write(1, &x, 1);
 count++;
 break;
